@@ -1,0 +1,101 @@
+\begin{titlepage}
+\begin{centering}
+
+\LARGE An Oblivious Routing Scheme for Parallel Computing in General Embedded Networks
+
+\vspace{18pt}
+
+\normalsize by\\
+
+\vspace{8pt}
+
+\large Bryan Hughes, B.S.E.E., M.S.E.E.\\
+
+\vspace{18pt}
+
+\normalsize A Dissertation \\
+
+\vspace{8pt}
+
+In\\
+
+\vspace{8pt}
+
+Electrical Engineering\\
+
+\vspace{18pt}
+
+Submitted to the Graduate Faculty\\
+of Texas Tech University in\\
+Partial Fulfillment of\\
+the Requirements for\\
+the Degree of\\
+
+\vspace{18pt}
+
+Doctor of Philosophy\\
+
+\vspace{18pt}
+
+Approved\\
+
+\vspace{8pt}
+
+Dr. Brian Nutter\\
+
+\vspace{8pt}
+
+Dr. Per Andersen\\
+
+\vspace{8pt}
+
+Dr. Ranadip Pal\\
+
+\vspace{8pt}
+
+Dr. Daniel Cooke\\
+
+\vspace{8pt}
+
+Dr. Sunanda Mitra\\
+
+\vspace{18pt}
+
+Fred Hartmeister\\
+Dean of the Graduate School\\
+
+\vspace{18pt}
+
+May, 2010\\
+
+\end{centering}
+\end{titlepage}
+
+\vspace*{\fill}
+\begingroup
+\centering
+\thispagestyle{empty}
+
+Copyright 2010, Bryan Hughes
+
+\endgroup
+\vspace*{\fill}
+
+\chapter{Acknowledgements}
+I would like to thank my dissertation advisor Dr. Nutter for his support of my project. His continual guidance has helped keep my project on track, and has given me countless inspirations for my project. I would also like to thank Dr. Andersen and Dr. Cooke for introducing me to so many interesting topics in Computer Science that were incorporated in my project. My thanks also extend to Dr. Mitra and Dr. Pal for their support of my project. Elliot Briggs, a fellow graduate student in Electrical Engineering, also has my thanks for his help in assembling the hardware in the project.
+
+I would like to thank the Electrical and Computer Engineering department and Dr. Mitra for their financial support over the years, without which I would not have been able to achieve all that I have achieved. 
+
+I am very grateful for the support of my friends and family over the years. They have always shown support for my endeavors and encouraged me to reach my highest potential. To my loving wife, Melissa; I am so lucky to have such a wonderful wife who put up with my long hours, constant prattling about my project, and always supported me.
+
+
+\tableofcontents
+
+\chapter{Abstract}
+Parallel computing is currently undergoing a transition from a niche use to widespread acceptance because of the recent availability of multi-core processors in the personal computing market. These processors have given new levels of performance to desktop applications, allowing algorithms that were once the domain of supercomputers to now be run on home systems. The embedded world has yet to embrace these parallel systems except in ultra-high-end systems. Network performance is critical in parallel computing, and the routing algorithm has a direct impact on performance. In this dissertation, a prototype toolkit is developed consisting of five primary parts: a prototype router implemented using TI F2808 DSP controllers, a physical and data link layer that utilizes SPI as a base, a network layer protocol stack for handling transmission across a network, a routing algorithm, and an API that simplifies the programming of parallel algorithms. The routing algorithm is based on the seminal work of Harald R\"acke. R\"acke's method is very good at avoiding congestion, but is generally too complex for embedded systems. The algorithm presented here is a modified version of R\"acke's method that is more suitable for embedded systems while maintaining most of the advantages of R\"acke's method.
+
+\listoftables
+\addcontentsline{toc}{chapter}{List of Tables}
+
+\listoffigures
+\addcontentsline{toc}{chapter}{List of Figures}
